@@ -526,7 +526,7 @@
                   Leave your contacts and we will call you back
                 </legend>
                 <label class="form-label">
-                  Name
+                  <span class="label-title">Name</span>
                   <div class="modal-icon-position">
                     <div class="modal-svg-div">
                       <svg class="modal-svg" width="12" height="12">
@@ -543,7 +543,7 @@
                   </div>
                 </label>
                 <label class="form-label">
-                  Phone
+                  <span class="label-title">Phone</span>
                   <div class="modal-icon-position">
                     <div class="modal-svg-div">
                       <svg class="modal-svg" width="12" height="12">
@@ -560,7 +560,7 @@
                   </div>
                 </label>
                 <label class="form-label">
-                  Email
+                  <span class="label-title">Email</span>
                   <div class="modal-icon-position">
                     <div class="modal-svg-div">
                       <svg class="modal-svg" width="12" height="12">
@@ -572,7 +572,7 @@
                   </div>
                 </label>
                 <label class="form-label">
-                  Comment
+                  <span class="label-title">Comment</span>
                   <textarea
                     class="textarea-comment"
                     type="text"
@@ -584,20 +584,24 @@
                 </label>
               </fieldset>
 
-              <div class="check-div">
-                <input
-                  class="check-pri"
-                  type="checkbox"
-                  name="privacy-pol"
-                  value="privacy"
-                  id="privacy"
-                  required
-                />
-                <label class="form-labell" for="privacy"
-                  >I accept the terms and conditions of the
-                  <span class="pri-poli">
-                    <a class="link-privacy" href="/">Privacy Policy</a></span
-                  >
+              <div>
+                <label class="check-label">
+                  <input
+                    class="modal-checkbox visually-hidden"
+                    type="checkbox"
+                    name="privacy-policy"
+                    value="checked"
+                    id="privacy"
+                  />
+                  <div class="checkbox-icon">
+                    <svg width="10" height="8" class="check-svg">
+                      <use href="./images/icons.svg#ok-vector"></use>
+                    </svg>
+                  </div>
+                  <p class="check-label-p">
+                    I accept the terms and conditions of the
+                    <a href="#" class="link-privacy">Privacy Policy</a>
+                  </p>
                 </label>
               </div>
 
